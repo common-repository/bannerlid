@@ -1,0 +1,122 @@
+select[multiple] {
+    height: auto;
+    width: 25em;
+}
+
+#banner_preview {
+	padding: 8px;
+}
+
+#banner_preview img {
+	border: 2px solid #ccc;
+	max-width: 284px;
+	max-height: 100px;
+}
+
+.bannerlid-info-panel{
+	color: #333;
+	border: 1px solid #e6db55;
+	background: #ffffe0;
+	padding: 12px;
+	width: 300px;
+}
+
+.bannerlid-warning-panel{
+	color: #300;
+	border: 1px solid #f00;
+	background: #fcc;
+	padding: 12px;
+	width: 300px;
+}
+
+.full-width {
+	width: auto;
+}
+
+#sortable li{
+	border: 1px solid #f0f0f0;
+	text-align: center;
+	padding: 8px;
+}
+
+.filter_wrapper{
+	display: block;
+	margin: 1%;
+	padding: 1%;
+	background: #fff;
+}
+
+.chart_wrapper{
+	display: block;
+	margin: 1%;
+	padding: 1% 2% 6% 2%;
+	background: #fff;
+}
+
+.chart_full{
+
+	width: auto;
+	height: 300px;
+}
+
+.chart_half{
+	float: left;
+	width: 44%;
+	height: 300px;
+}
+
+.chart_canvas {
+	width: 100%;
+	height: 100%;
+}
+
+.chart-legend {
+	display: none;
+	border: 1px solid #f5f5f5;
+	margin: 1%;
+	padding: 2%;
+	background: #fff;
+}
+
+.chart-legend ul li span, .doughnut-legend li span{
+	width: 50px;
+	height: 50px;
+	margin-right: 12px;
+}
+
+
+.search-wrapper {
+	display: block;
+	margin: 1%;
+	padding: 1%;
+	background: #fff;
+}
+
+.inline-form li {
+	display: inline;
+}
+
+.submit-button {
+  float: right;
+  margin-top: -4px;
+  position: relative;
+  vertical-align: top;
+  padding: 0;
+  padding: 8px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  background: #ccc;
+  border: 0;
+  cursor: pointer;
+}
+
+
+li.label {
+	font-style: italic;
+	color: #444;
+	margin-right: 12px;
+}
+li.value {
+	margin-right: 32px;
+}
